@@ -20,6 +20,6 @@ end
 
 describe 'fizzbuzz' do
   it 'returns "2" when passed anything but 3, 5, 15' do
-    expect(fizzbuzz(2)).to eq "#{2}"
+    expect(fizzbuzz(2)).to eq 2
   end
 end
